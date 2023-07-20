@@ -11,7 +11,7 @@
 
     #content{
         background-color: white;
-        width: 110vh;
+        width: 90vh;
         height: 100%;
         #header{
             display: flex;
@@ -35,24 +35,31 @@
             flex: 1 0 auto;
             margin: 3vh;
             min-width: 42vh;
+            justify-content: center;
+            flex-direction: column;
             #blocks{
                 display: flex;
                 justify-content: center;
+                align-items: center;
                 .cont1{
                     display: flex;
                     justify-content: center;
-                    align-items: center;
                     flex-direction: column;
                     img{
-                        width: 95vh;
+                        width: 70vh;
+                        height: 30vh;
                     }
                     #text{
-                        width: 95vh;
+                        width: 70vh;
+                        p{
+                            color: rgb(135, 135, 135);
+                            font-size: 9pt;
+                        }
                     }
                     #dc{
                         background-image: linear-gradient(to left, #FF5F42, #EB403B, #FF5187, #E83FBB, #EF45FF);
-                        height: 1vh;
-                        width: 20vh;
+                        height: 0.5vh;
+                        width: 30vh;
                     }
                 }
             }
