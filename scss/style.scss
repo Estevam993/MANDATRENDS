@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#body{
+    display: flex;
+    justify-content: center;
+
+    #content{
+        background-color: rgb(230, 230, 230);
+        width: 110vh;
+        height: 100%;
+
+        #header{
+            display: flex;
+            flex: 1 0 auto;
+            margin: 3vh;
+            min-width: 42vh;
+            height: 20vh;
+            background-image: linear-gradient(to right, #FF5F42, #EB403B, #FF5187, #E83FBB, #EF45FF);
+            padding-left: 2vh;
+            padding-right: 2vh;
+            align-items: center;
+            
+            svg{
+                fill: white;
+                height: 10vh;
+            }
+        }
+    }
+}
