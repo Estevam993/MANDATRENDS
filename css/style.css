@@ -5,9 +5,10 @@
 
 #body {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  background-color: #e6e6e6; }
   #body #content {
-    background-color: #e6e6e6;
+    background-color: white;
     width: 110vh;
     height: 100%; }
     #body #content #header {
@@ -23,5 +24,27 @@
       #body #content #header svg {
         fill: white;
         height: 10vh; }
+    #body #content #main {
+      background-color: white;
+      display: flex;
+      flex: 1 0 auto;
+      margin: 3vh;
+      min-width: 42vh; }
+      #body #content #main #blocks {
+        display: flex;
+        justify-content: center; }
+        #body #content #main #blocks .cont1 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column; }
+          #body #content #main #blocks .cont1 img {
+            width: 95vh; }
+          #body #content #main #blocks .cont1 #text {
+            width: 95vh; }
+          #body #content #main #blocks .cont1 #dc {
+            background-image: linear-gradient(to left, #FF5F42, #EB403B, #FF5187, #E83FBB, #EF45FF);
+            height: 1vh;
+            width: 20vh; }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,12 +7,12 @@
 #body{
     display: flex;
     justify-content: center;
+    background-color: rgb(230, 230, 230);
 
     #content{
-        background-color: rgb(230, 230, 230);
+        background-color: white;
         width: 110vh;
         height: 100%;
-
         #header{
             display: flex;
             flex: 1 0 auto;
@@ -23,10 +23,38 @@
             padding-left: 2vh;
             padding-right: 2vh;
             align-items: center;
-            
+
             svg{
                 fill: white;
                 height: 10vh;
+            }
+        }
+        #main{
+            background-color: white;
+            display: flex;
+            flex: 1 0 auto;
+            margin: 3vh;
+            min-width: 42vh;
+            #blocks{
+                display: flex;
+                justify-content: center;
+                .cont1{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    img{
+                        width: 95vh;
+                    }
+                    #text{
+                        width: 95vh;
+                    }
+                    #dc{
+                        background-image: linear-gradient(to left, #FF5F42, #EB403B, #FF5187, #E83FBB, #EF45FF);
+                        height: 1vh;
+                        width: 20vh;
+                    }
+                }
             }
         }
     }
