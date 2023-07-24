@@ -41,10 +41,13 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                flex-direction: column;
                 .cont1{
+                    cursor: pointer;
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
+                    margin-bottom: 2vh;
                     img{
                         width: 70vh;
                         height: 30vh;
@@ -61,6 +64,51 @@
                         height: 0.5vh;
                         width: 30vh;
                     }
+                }
+                #dual{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 2vh;
+                .cont2{                    
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 2vh;
+                    img{
+                        width: 35vh;
+                        height: 30vh;
+                    }
+                    #text{
+                        width: 35vh;
+                    }
+                    #dc{
+                        margin-top: 1vh;
+                        background-image: linear-gradient(to right, #3F9BF2, #4284FC, #4767E6, #424AFC, #5440F4);
+                        height: 0.5vh;
+                        width: 20vh;
+                    }
+                }
+                .cont3{
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin-bottom: 2vh;
+                    img{
+                        width: 35vh;
+                        height: 30vh;
+                    }
+                    #text{
+                        width: 35vh;
+                    }
+                    #dc{
+                        margin-top: 1vh;
+                        background-image: linear-gradient(to left, #50F2B1, #53FCA2, #57E687, #53FC75, #6BF474);
+                        height: 0.5vh;
+                        width: 20vh;
+                    }
+                }
                 }
             }
         }
