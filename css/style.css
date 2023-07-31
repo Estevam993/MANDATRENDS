@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Edu+SA+Beginner:wght@500&family=Josefin+Sans:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -91,5 +93,26 @@
               background-image: linear-gradient(to left, #50F2B1, #53FCA2, #57E687, #53FC75, #6BF474);
               height: 0.5vh;
               width: 20vh; }
+    #body #content #footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex: 1 0 auto;
+      margin: 3vh;
+      min-width: 42vh;
+      height: 12vh;
+      background-color: #FF5F42;
+      padding-left: 2vh;
+      padding-right: 2vh;
+      color: white;
+      align-items: center; }
+      #body #content #footer h1 {
+        font-family: 'Dosis', sans-serif; }
+      #body #content #footer .text {
+        font-family: 'Edu SA Beginner', cursive;
+        margin-left: 2vh;
+        padding-left: 2vh;
+        border-left: solid 1px white;
+        margin-right: 5vh; }
 
 /*# sourceMappingURL=style.css.map */
