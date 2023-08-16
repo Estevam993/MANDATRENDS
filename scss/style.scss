@@ -34,7 +34,7 @@
             display: flex;
             flex: 1 0 auto;
             margin: 3vh;
-            min-width: 42vh;
+            min-width: 40vh;
             height: 15vh;
             background-image: linear-gradient(to right, #FF5F42, #EB403B, #FF5187, #E83FBB, #EF45FF);
             padding-left: 2vh;
@@ -57,7 +57,6 @@
             }
         }
         #main{
-            background-color: white;
             display: flex;
             flex: 1 0 auto;
             margin: 3vh;
@@ -79,14 +78,15 @@
             }
             @media (max-width: 325px){
                 width: 40vh;
-                
-                margin-left: -1vh;                
             }
             #blocks{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 flex-direction: column;
+                @media (max-width: 325px){
+                    margin-left: -1.3vh;
+                }
                 .cont1{
                     cursor: pointer;
                     display: flex;
@@ -121,6 +121,7 @@
                         }
                         @media (max-width: 375px){
                             width: 40vh;
+                            
                         }
                         @media (max-width: 325px){
                             width: 35vh;
@@ -135,6 +136,9 @@
                         background-image: linear-gradient(to left, #FF5F42, #EB403B, #FF5187, #E83FBB, #EF45FF);
                         height: 0.5vh;
                         width: 30vh;
+                        @media (max-width: 375px){
+                            width: 15vh;
+                        }
                     }
                 }
                 #dual{
@@ -146,9 +150,9 @@
                         gap: 0.2vh;
                     }
                     @media (max-width: 375px){
-                        gap: 0.2vh;
-                        margin-bottom: 4vh;
+                        gap: 0.5vh;
                     }
+                    
                 .cont2{                    
                     cursor: pointer;
                     display: flex;
@@ -180,9 +184,15 @@
                         @media (max-width: 470px){
                             width: 22.5vh;
                             height: 11vh;
+                            h5{
+                                font-size: medium;
+                            }
                         }
                         @media (max-width: 375px){
                             width: 20vh;
+                            h5{
+                                font-size: medium;
+                            }
                         }
                         @media (max-width: 325px){
                             width: 17.5vh;
@@ -194,10 +204,7 @@
                         background-image: linear-gradient(to right, #3F9BF2, #4284FC, #4767E6, #424AFC, #5440F4);
                         height: 0.5vh;
                         width: 20vh;
-                        @media (max-height:680px){
-                            margin-top: 4vh;
-                        }
-                        @media (max-width: 325px){
+                        @media (max-width: 375px){
                             width: 10.5vh;
                         }   
                     }
@@ -232,9 +239,14 @@
                         @media (max-width: 470px){
                             width: 22.5vh;
                             height: 11vh;
+                            h5{
+                                font-size: medium;
+                            }
                         }
                         @media (max-width: 375px){
-                            width: 20vh;
+                            h5{
+                                font-size: medium;
+                            }
                         }
                         @media (max-width: 325px){
                             width: 17.5vh;
@@ -246,10 +258,7 @@
                         background-image: linear-gradient(to left, #50F2B1, #53FCA2, #57E687, #53FC75, #6BF474);
                         height: 0.5vh;
                         width: 20vh;
-                        @media (max-height:680px){
-                            margin-top: 4vh;
-                        }
-                        @media (max-width: 325px){
+                        @media (max-width: 375px){
                             width: 10.5vh;
                         }
                         
@@ -264,7 +273,7 @@
             align-items: center;
             flex: 1 0 auto;
             margin: 3vh;
-            min-width: 42vh;
+            min-width: 40vh;
             height: 9vh;
             background-color: #FF5F42;
             padding-left: 2vh;
@@ -276,6 +285,13 @@
             }
             @media (max-width: 375px){
                 margin: 0;
+            }
+            @media (max-width: 325px){
+                @media (max-height:680px){
+                    h4{
+                        font-size: medium;
+                    }
+                }
             }
             h1{
                 font-family: 'Dosis', sans-serif;
