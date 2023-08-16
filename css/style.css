@@ -20,6 +20,12 @@
     @media (max-width: 470px) {
       #body #content {
         width: 55vh; } }
+    @media (max-width: 425px) {
+      #body #content {
+        width: 50vh; } }
+    @media (max-width: 375px) {
+      #body #content {
+        width: 45vh; } }
     #body #content #header {
       display: flex;
       flex: 1 0 auto;
@@ -33,6 +39,10 @@
       @media (max-width: 470px) {
         #body #content #header {
           margin: 2vh; } }
+      @media (max-width: 375px) {
+        #body #content #header {
+          margin: 0;
+          margin-bottom: 2vh; } }
       #body #content #header svg {
         fill: white;
         height: 10vh; }
@@ -54,6 +64,12 @@
       @media (max-width: 470px) {
         #body #content #main {
           width: 55vh; } }
+      @media (max-width: 425px) {
+        #body #content #main {
+          width: 50vh; } }
+      @media (max-width: 375px) {
+        #body #content #main {
+          width: 45vh; } }
       #body #content #main #blocks {
         display: flex;
         justify-content: center;
@@ -75,6 +91,9 @@
             @media (max-width: 470px) {
               #body #content #main #blocks .cont1 img {
                 width: 45vh; } }
+            @media (max-width: 375px) {
+              #body #content #main #blocks .cont1 img {
+                width: 40vh; } }
           #body #content #main #blocks .cont1 #text {
             width: 60vh; }
             @media (max-width: 550px) {
@@ -83,6 +102,9 @@
             @media (max-width: 470px) {
               #body #content #main #blocks .cont1 #text {
                 width: 45vh; } }
+            @media (max-width: 375px) {
+              #body #content #main #blocks .cont1 #text {
+                width: 40vh; } }
             #body #content #main #blocks .cont1 #text p {
               color: #878787;
               font-size: 9pt; }
@@ -97,6 +119,10 @@
           @media (max-width: 470px) {
             #body #content #main #blocks #dual {
               gap: 0.2vh; } }
+          @media (max-width: 375px) {
+            #body #content #main #blocks #dual {
+              gap: 0.2vh;
+              margin-bottom: 4vh; } }
           #body #content #main #blocks #dual .cont2 {
             cursor: pointer;
             display: flex;
@@ -113,6 +139,9 @@
               @media (max-width: 470px) {
                 #body #content #main #blocks #dual .cont2 img {
                   width: 22.5vh; } }
+              @media (max-width: 375px) {
+                #body #content #main #blocks #dual .cont2 img {
+                  width: 20vh; } }
             #body #content #main #blocks #dual .cont2 #text {
               width: 30vh; }
               @media (max-width: 550px) {
@@ -122,6 +151,9 @@
                 #body #content #main #blocks #dual .cont2 #text {
                   width: 22.5vh;
                   height: 11vh; } }
+              @media (max-width: 375px) {
+                #body #content #main #blocks #dual .cont2 #text {
+                  width: 20vh; } }
             #body #content #main #blocks #dual .cont2 #dc {
               margin-top: 1vh;
               background-image: linear-gradient(to right, #3F9BF2, #4284FC, #4767E6, #424AFC, #5440F4);
@@ -143,6 +175,9 @@
               @media (max-width: 470px) {
                 #body #content #main #blocks #dual .cont3 img {
                   width: 22.5vh; } }
+              @media (max-width: 375px) {
+                #body #content #main #blocks #dual .cont3 img {
+                  width: 20vh; } }
             #body #content #main #blocks #dual .cont3 #text {
               width: 30vh; }
               @media (max-width: 550px) {
@@ -152,6 +187,9 @@
                 #body #content #main #blocks #dual .cont3 #text {
                   width: 22.5vh;
                   height: 11vh; } }
+              @media (max-width: 375px) {
+                #body #content #main #blocks #dual .cont3 #text {
+                  width: 20vh; } }
             #body #content #main #blocks #dual .cont3 #dc {
               margin-top: 1vh;
               background-image: linear-gradient(to left, #50F2B1, #53FCA2, #57E687, #53FC75, #6BF474);
@@ -170,6 +208,12 @@
       padding-right: 2vh;
       color: white;
       align-items: center; }
+      @media (max-width: 425px) {
+        #body #content #footer {
+          margin: 2vh; } }
+      @media (max-width: 375px) {
+        #body #content #footer {
+          margin: 0; } }
       #body #content #footer h1 {
         font-family: 'Dosis', sans-serif; }
       #body #content #footer .text {
