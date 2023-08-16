@@ -26,6 +26,9 @@
     @media (max-width: 375px) {
       #body #content {
         width: 45vh; } }
+    @media (max-width: 325px) {
+      #body #content {
+        width: 40vh; } }
     #body #content #header {
       display: flex;
       flex: 1 0 auto;
@@ -70,6 +73,10 @@
       @media (max-width: 375px) {
         #body #content #main {
           width: 45vh; } }
+      @media (max-width: 325px) {
+        #body #content #main {
+          width: 40vh;
+          margin-left: -1vh; } }
       #body #content #main #blocks {
         display: flex;
         justify-content: center;
@@ -94,6 +101,10 @@
             @media (max-width: 375px) {
               #body #content #main #blocks .cont1 img {
                 width: 40vh; } }
+            @media (max-width: 325px) {
+              #body #content #main #blocks .cont1 img {
+                width: 35vh;
+                height: 18vh; } }
           #body #content #main #blocks .cont1 #text {
             width: 60vh; }
             @media (max-width: 550px) {
@@ -105,6 +116,9 @@
             @media (max-width: 375px) {
               #body #content #main #blocks .cont1 #text {
                 width: 40vh; } }
+            @media (max-width: 325px) {
+              #body #content #main #blocks .cont1 #text {
+                width: 35vh; } }
             #body #content #main #blocks .cont1 #text p {
               color: #878787;
               font-size: 9pt; }
@@ -142,6 +156,9 @@
               @media (max-width: 375px) {
                 #body #content #main #blocks #dual .cont2 img {
                   width: 20vh; } }
+              @media (max-width: 325px) {
+                #body #content #main #blocks #dual .cont2 img {
+                  width: 17.5vh; } }
             #body #content #main #blocks #dual .cont2 #text {
               width: 30vh; }
               @media (max-width: 550px) {
@@ -154,11 +171,20 @@
               @media (max-width: 375px) {
                 #body #content #main #blocks #dual .cont2 #text {
                   width: 20vh; } }
+              @media (max-width: 325px) {
+                #body #content #main #blocks #dual .cont2 #text {
+                  width: 17.5vh; } }
             #body #content #main #blocks #dual .cont2 #dc {
               margin-top: 1vh;
               background-image: linear-gradient(to right, #3F9BF2, #4284FC, #4767E6, #424AFC, #5440F4);
               height: 0.5vh;
               width: 20vh; }
+              @media (max-height: 680px) {
+                #body #content #main #blocks #dual .cont2 #dc {
+                  margin-top: 4vh; } }
+              @media (max-width: 325px) {
+                #body #content #main #blocks #dual .cont2 #dc {
+                  width: 10.5vh; } }
           #body #content #main #blocks #dual .cont3 {
             cursor: pointer;
             display: flex;
@@ -178,6 +204,9 @@
               @media (max-width: 375px) {
                 #body #content #main #blocks #dual .cont3 img {
                   width: 20vh; } }
+              @media (max-width: 325px) {
+                #body #content #main #blocks #dual .cont3 img {
+                  width: 17.5vh; } }
             #body #content #main #blocks #dual .cont3 #text {
               width: 30vh; }
               @media (max-width: 550px) {
@@ -190,11 +219,20 @@
               @media (max-width: 375px) {
                 #body #content #main #blocks #dual .cont3 #text {
                   width: 20vh; } }
+              @media (max-width: 325px) {
+                #body #content #main #blocks #dual .cont3 #text {
+                  width: 17.5vh; } }
             #body #content #main #blocks #dual .cont3 #dc {
               margin-top: 1vh;
               background-image: linear-gradient(to left, #50F2B1, #53FCA2, #57E687, #53FC75, #6BF474);
               height: 0.5vh;
               width: 20vh; }
+              @media (max-height: 680px) {
+                #body #content #main #blocks #dual .cont3 #dc {
+                  margin-top: 4vh; } }
+              @media (max-width: 325px) {
+                #body #content #main #blocks #dual .cont3 #dc {
+                  width: 10.5vh; } }
     #body #content #footer {
       display: flex;
       justify-content: center;
