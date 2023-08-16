@@ -107,7 +107,10 @@
                 width: 35vh;
                 height: 18vh; } }
           #body #content #main #blocks .cont1 #text {
+            font-family: Arial, Helvetica, sans-serif;
             width: 60vh; }
+            #body #content #main #blocks .cont1 #text h5 {
+              font-size: large; }
             @media (max-width: 550px) {
               #body #content #main #blocks .cont1 #text {
                 width: 50vh; } }
@@ -116,7 +119,9 @@
                 width: 45vh; } }
             @media (max-width: 375px) {
               #body #content #main #blocks .cont1 #text {
-                width: 40vh; } }
+                width: 40vh; }
+                #body #content #main #blocks .cont1 #text h5 {
+                  font-size: medium; } }
             @media (max-width: 325px) {
               #body #content #main #blocks .cont1 #text {
                 width: 35vh; } }
@@ -131,6 +136,7 @@
               #body #content #main #blocks .cont1 #dc {
                 width: 15vh; } }
         #body #content #main #blocks #dual {
+          font-family: Arial, Helvetica, sans-serif;
           display: flex;
           flex-direction: row;
           gap: 2vh; }
@@ -146,6 +152,8 @@
             justify-content: center;
             flex-direction: column;
             margin-bottom: 2vh; }
+            #body #content #main #blocks #dual .cont2 h5 {
+              font-size: large; }
             #body #content #main #blocks #dual .cont2 img {
               width: 30vh;
               height: 20vh; }
@@ -195,6 +203,8 @@
             justify-content: center;
             flex-direction: column;
             margin-bottom: 2vh; }
+            #body #content #main #blocks #dual .cont3 h5 {
+              font-size: large; }
             #body #content #main #blocks #dual .cont3 img {
               width: 30vh;
               height: 20vh; }
@@ -218,7 +228,7 @@
                   width: 25vh; } }
               @media (max-width: 470px) {
                 #body #content #main #blocks #dual .cont3 #text {
-                  width: 22.5vh;
+                  width: 20vh;
                   height: 11vh; }
                   #body #content #main #blocks #dual .cont3 #text h5 {
                     font-size: medium; } }
@@ -257,7 +267,7 @@
           margin: 0; } }
 @media (max-width: 325px) and (max-height: 680px) {
   #body #content #footer h4 {
-    font-size: medium; } }
+    font-size: small; } }
 
       #body #content #footer h1 {
         font-family: 'Dosis', sans-serif; }
