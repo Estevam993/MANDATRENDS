@@ -10,25 +10,36 @@
     display: flex;
     justify-content: center;
     background-color: rgb(230, 230, 230);
-
+    height: 100vh;
     #content{
         background-color: white;
-        width: 90vh;
-        height: 100%;
+        width: 70vh;
+        height: 100vh;
+        @media (max-width: 550px){
+            width: 60vh;
+        }
+        @media (max-width: 470px){
+            width: 55vh;
+        }
         #header{
             display: flex;
             flex: 1 0 auto;
             margin: 3vh;
             min-width: 42vh;
-            height: 20vh;
+            height: 15vh;
             background-image: linear-gradient(to right, #FF5F42, #EB403B, #FF5187, #E83FBB, #EF45FF);
             padding-left: 2vh;
             padding-right: 2vh;
             align-items: center;
-
+            @media (max-width: 470px){
+                margin: 2vh;
+            }
             svg{
                 fill: white;
                 height: 10vh;
+                @media (max-width: 470px){
+                    height: 9.3vh;
+                }
             }
         }
         #main{
@@ -39,6 +50,13 @@
             min-width: 42vh;
             justify-content: center;
             flex-direction: column;
+            @media (max-width: 550px){
+                width: 60vh;
+                margin: 0vh;
+            }
+            @media (max-width: 470px){
+                width: 55vh;
+            }
             #blocks{
                 display: flex;
                 justify-content: center;
@@ -50,12 +68,26 @@
                     justify-content: center;
                     flex-direction: column;
                     margin-bottom: 2vh;
+                    
                     img{
-                        width: 70vh;
-                        height: 30vh;
+                        @media (max-width: 550px){
+                            width: 50vh;
+                            height: 20vh;
+                        }
+                        @media (max-width: 470px){
+                            width: 45vh;
+                        }
+                        width: 60vh;
+                        height: 25vh;
                     }
                     #text{
-                        width: 70vh;
+                        @media (max-width: 550px){
+                            width: 50vh;
+                        }
+                        @media (max-width: 470px){
+                            width: 45vh;
+                        }
+                        width: 60vh;
                         p{
                             color: rgb(135, 135, 135);
                             font-size: 9pt;
@@ -71,18 +103,37 @@
                     display: flex;
                     flex-direction: row;
                     gap: 2vh;
+                    
+                    @media (max-width: 470px){
+                        gap: 0.2vh;
+                    }
                 .cont2{                    
                     cursor: pointer;
                     display: flex;
                     justify-content: center;
                     flex-direction: column;
                     margin-bottom: 2vh;
+
                     img{
-                        width: 35vh;
-                        height: 30vh;
+                        @media (max-width: 550px){
+                            width: 25vh;
+                            height: 15vh;
+                        }
+                        @media (max-width: 470px){
+                            width: 22.5vh;
+                        }
+                        width: 30vh;
+                        height: 20vh;
                     }
                     #text{
-                        width: 35vh;
+                        @media (max-width: 550px){
+                            width: 25vh;
+                        }
+                        @media (max-width: 470px){
+                            width: 22.5vh;
+                            height: 11vh;
+                        }
+                        width: 30vh;
                     }
                     #dc{
                         margin-top: 1vh;
@@ -98,11 +149,25 @@
                     flex-direction: column;
                     margin-bottom: 2vh;
                     img{
-                        width: 35vh;
-                        height: 30vh;
+                        @media (max-width: 550px){
+                            width: 25vh;
+                            height: 15vh;
+                        }
+                        @media (max-width: 470px){
+                            width: 22.5vh;
+                        }
+                        width: 30vh;
+                        height: 20vh;
                     }
                     #text{
-                        width: 35vh;
+                        @media (max-width: 550px){
+                            width: 25vh;
+                        }
+                        @media (max-width: 470px){
+                            width: 22.5vh;
+                            height: 11vh;
+                        }
+                        width: 30vh;
                     }
                     #dc{
                         margin-top: 1vh;
@@ -121,7 +186,7 @@
             flex: 1 0 auto;
             margin: 3vh;
             min-width: 42vh;
-            height: 12vh;
+            height: 9vh;
             background-color: #FF5F42;
             padding-left: 2vh;
             padding-right: 2vh;
